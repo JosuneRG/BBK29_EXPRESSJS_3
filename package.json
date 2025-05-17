@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "name": "bbk29_expressjs_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ej3.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ej3.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosuneRG/BBK29_EXPRESSJS_3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosuneRG/BBK29_EXPRESSJS_3/issues"
+  },
+  "homepage": "https://github.com/JosuneRG/BBK29_EXPRESSJS_3#readme"
+}
