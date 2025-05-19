@@ -1,7 +1,7 @@
 // Importar Express
 const express = require('express');
 const app = express();
-const puerto = 3000;
+const port = 3000;
 
 // Middleware para que Express entienda JSON
 app.use(express.json());
@@ -30,3 +30,10 @@ app.post('/products', (req, res) => {
   productos.push(nuevoProducto);
   res.json({ mensaje: 'Producto creado', producto: nuevoProducto });
 });
+
+
+// 5. Iniciamos el servidor
+app.listen(port, ()=>{
+   console.log(`Servidor iniciado en el puerto ${port}`);
+});
+
